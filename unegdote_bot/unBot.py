@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import lxml
 
-bot = telebot.TeleBot('7630372288:AAFnUQt4amGbLXWNVkwoPYVTRnm0goEYHQA')
+bot = telebot.TeleBot('код бота')
 
 @bot.message_handler(commands = ['start'])
 def start(message):
