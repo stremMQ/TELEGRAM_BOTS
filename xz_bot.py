@@ -8,7 +8,7 @@ from aiogram import Dispatcher, Bot, F
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 
 url = "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT"
-bot = Bot("7237931343:AAHzDA6aeDg0v7zatayY9Bfa8WPNJHI9sns")
+bot = Bot("")
 dp = Dispatcher()
 
 kurs = ReplyKeyboardMarkup(
