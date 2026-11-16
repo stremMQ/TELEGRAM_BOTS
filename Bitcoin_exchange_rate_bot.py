@@ -26,7 +26,7 @@ async def bitoc(message: Message):
 
 @dp.message(Command("start"))
 async def start(message: Message):
-    await message.answer(f"Привет лох {message.from_user.first_name}", reply_markup = kurs)
+    await message.answer(f"Привет {message.from_user.first_name}", reply_markup = kurs)
 
 @dp.message()
 async def echo(message: Message):
